@@ -1,0 +1,12 @@
+-------------------------------------------------------------------------------
+Test set: Home Page Feature
+-------------------------------------------------------------------------------
+Tests run: 2, Failures: 1, Errors: 0, Skipped: 0, Time elapsed: 16.63 s <<< FAILURE! -- in Home Page Feature
+Home Page Feature.HomePage section count -- Time elapsed: 6.687 s <<< FAILURE!
+java.lang.AssertionError
+	at org.junit.Assert.fail(Assert.java:87)
+	at org.junit.Assert.assertTrue(Assert.java:42)
+	at org.junit.Assert.assertTrue(Assert.java:53)
+	at StepDefinations.HomePageSteps.homepage_section_count_should_be(HomePageSteps.java:47)
+	at ✽.Homepage section count should be 13(file:///C:/QA/Selenium_WorkSpace/CucumberPOM/src/test/resources/AppFeatures/HomePage.feature:29)
+
