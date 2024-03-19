@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="5" passed="4" failed="1" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2024-03-19T09:06:40 EDT" name="Default suite" finished-at="2024-03-19T09:06:55 EDT" duration-ms="15540">
+    <groups>
+      <group name="cucumber">
+        <method signature="AbstractTestNGCucumberTests.runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:Parallel.ParallelRun@3e08ff24]" name="runScenario" class="io.cucumber.testng.AbstractTestNGCucumberTests"/>
+      </group> <!-- cucumber -->
+    </groups>
+    <test started-at="2024-03-19T09:06:40 EDT" name="Default test" finished-at="2024-03-19T09:06:55 EDT" duration-ms="15540">
+      <class name="Parallel.ParallelRun">
+        <test-method is-config="true" signature="setUpClass()[pri:0, instance:Parallel.ParallelRun@3e08ff24]" started-at="2024-03-19T09:06:40 EDT" name="setUpClass" finished-at="2024-03-19T09:06:40 EDT" duration-ms="343" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpClass -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:Parallel.ParallelRun@3e08ff24]" started-at="2024-03-19T09:06:40 EDT" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2024-03-19T09:06:53 EDT" duration-ms="12710" status="FAIL">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["HomePage section count"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Optional[Home Page Feature]"]]>
+              </value>
+            </param>
+          </params>
+          <exception class="java.lang.AssertionError">
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError
+at org.junit.Assert.fail(Assert.java:87)
+at org.junit.Assert.assertTrue(Assert.java:42)
+at org.junit.Assert.assertTrue(Assert.java:53)
+at Parallel.HomePageSteps.homepage_section_count_should_be(HomePageSteps.java:47)
+at ✽.Homepage section count should be 13(classpath:Parallel/HomePage.feature:29)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:Parallel.ParallelRun@3e08ff24]" started-at="2024-03-19T09:06:40 EDT" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2024-03-19T09:06:50 EDT" duration-ms="10055" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Login Page Title"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Optional[Login page feature]"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:Parallel.ParallelRun@3e08ff24]" started-at="2024-03-19T09:06:40 EDT" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2024-03-19T09:06:53 EDT" duration-ms="12384" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["HomePage Title"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Optional[Home Page Feature]"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:Parallel.ParallelRun@3e08ff24]" started-at="2024-03-19T09:06:40 EDT" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2024-03-19T09:06:52 EDT" duration-ms="11836" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Forgot Password Link"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Optional[Login page feature]"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:Parallel.ParallelRun@3e08ff24]" started-at="2024-03-19T09:06:40 EDT" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2024-03-19T09:06:54 EDT" duration-ms="13188" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Login with correct credentials"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Optional[Login page feature]"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method is-config="true" signature="tearDownClass()[pri:0, instance:Parallel.ParallelRun@3e08ff24]" started-at="2024-03-19T09:06:54 EDT" name="tearDownClass" finished-at="2024-03-19T09:06:55 EDT" duration-ms="1971" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownClass -->
+      </class> <!-- Parallel.ParallelRun -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>

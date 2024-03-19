@@ -1,4 +1,5 @@
-C:\QA\Selenium_WorkSpace\CucumberPOM\src\test\java\AppHooks\ApplicationHooks.java
-C:\QA\Selenium_WorkSpace\CucumberPOM\src\test\java\StepDefinations\HomePageSteps.java
-C:\QA\Selenium_WorkSpace\CucumberPOM\src\test\java\StepDefinations\LoginSteps.java
+C:\QA\Selenium_WorkSpace\CucumberPOM\src\test\java\Parallel\ApplicationHooks.java
+C:\QA\Selenium_WorkSpace\CucumberPOM\src\test\java\Parallel\HomePageSteps.java
+C:\QA\Selenium_WorkSpace\CucumberPOM\src\test\java\Parallel\LoginSteps.java
+C:\QA\Selenium_WorkSpace\CucumberPOM\src\test\java\Parallel\ParallelRun.java
 C:\QA\Selenium_WorkSpace\CucumberPOM\src\test\java\TestRunner\MyTestRunner.java
